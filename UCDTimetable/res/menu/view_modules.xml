@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+   
+    
+        <item
+        android:id="@+id/about"
+        android:orderInCategory="99"
+        android:icon="@drawable/info"
+        android:showAsAction="ifRoom"
+        android:title="@string/about"/>
+        
+        <item
+        android:id="@+id/add_modules"
+        android:orderInCategory="98"
+        android:icon="@drawable/ic_action_new"
+        android:showAsAction="ifRoom"
+        android:title="@string/about"/>
+
+</menu>

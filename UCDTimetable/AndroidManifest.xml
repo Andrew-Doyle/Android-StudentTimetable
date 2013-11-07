@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.collegetimetable"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity android:name="com.example.collegetimetable.PreviewScreen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.collegetimetable.ViewModules"
+            android:label="@string/title_view"
+            android:theme="@style/CustomTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.ParentActivity" />
+        </activity>
+        <activity
+            android:name="com.example.collegetimetable.AddModules"
+            android:label="@string/title_add"
+            android:theme="@style/ModulesTheme" >
+        </activity>
+        <activity
+            android:name="com.example.collegetimetable.ModuleDetails"
+            android:label="@string/title_details"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.collegetimetable.Feedback"
+            android:label="@string/feedback"
+            android:theme="@style/CustomTheme" >
+        </activity>
+        <activity
+            android:name="com.example.collegetimetable.About"
+            android:label="@string/about"
+            android:theme="@style/CustomTheme" >
+        </activity>
+
+     <receiver
+            android:name=".TimetableWidget"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            
+            <meta-data android:name = "android.appwidget.provider"
+                android:resource="@xml/widget_stuff"/>
+        </receiver>
+        
+            <activity android:name=".WidgetConfig"
+                android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+
+            </intent-filter>
+        </activity>
+        
+    </application>
+>
+
+</manifest>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="mon">Mo</string>
+	<string name="delete_module">Delete module</string>
+	<string name="tue">Tu</string>
+	<string name="wed">We</string>
+	<string name="thu">Th</string>
+	<string name="fri">Fr</string>
+	<string name="room_nr">Location (room #)</string>
+	<string name="module_time">Choose Module Time:</string>
+	<string name="module_day">Choose Module Day:</string>
+	<string name="additional_info">Additional info (comments)</string>
+    <string name="app_name">College Timetable</string>
+    <string name="title_view">Timetable</string>
+    <string name="title_add">Add Module</string>
+    <string name="title_test">DB TEST</string>
+    <string name="title_details">Module Details</string>
+    <string name="home">Home</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="feedback">Feedback</string>
+    <string name="previous">Go Back</string>
+    <string name="send">Send</string>
+    <string name="lecture">Lecture</string>
+    <string name="module_code">Module Code</string>
+    <string name="full_module_name">Full Module Name</string>
+    <string name="practical">Practical</string>
+    <string name="cancel">Cancel</string>
+    <string name="about">About</string>
+    <string name="about_this_app">Assignment 3 Description</string>
+    <string name="feedback_name">Please enter your name:</string>
+    <string name="feedback_name_hint">Please enter your name:</string>
+    <string name="feedback_email">Please enter your email address</string>
+    <string name="feedback_email_hint">Please enter your email address</string>
+    <string name="feedback_actual">Please enter your feedback</string>    
+    <string name="feedback_heading">Feedback Form</string>
+    <string name="feedback_instructions">We value your feedback. Enter your name and email address to be entered into our draw on January 28th, 2014 for a Samsung 32 inch LED TV! We do not pass on your details to third parties.</string>
+    <string name="feedback_actual_hint">Please enter your feedback</string>
+    <string name="feedback_actual">Please enter your feedback</string>
+    <string name="appdescription">"This application launches with a splash screen which is set to show for a few seconds before proceeding to the main activity (View Modules Page).The user can navigate via the ActionBar. The Actionbarsherlock library was utilised to enable this feature for Android 2.x onwards (The Actionbarsherlock project is included in the submission since it must be referenced by the application project).\n\n9 Patch images were used to ensure images scaled without distortion. The widget is set to update every 30 minutes - You can change this in widget_stuff.xml. \n\nPlease note that this application is for educational purposes only - and there isn`t really a TV to be won."	</string>
+   
+</resources>
